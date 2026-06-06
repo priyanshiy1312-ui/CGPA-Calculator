@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced CGPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>CGPA Calculator</h1>
+
+    <div id="subjects">
+        <div class="subject-row">
+            <input type="text" placeholder="Subject Name">
+            <input type="number" placeholder="Credits" class="credit">
+            <input type="number" placeholder="Marks" class="marks">
+        </div>
+    </div>
+
+    <button id="addSubject">Add Subject</button>
+    <button id="calculateSGPA">Calculate SGPA</button>
+    <button id="saveSemester">Save Semester</button>
+    <button id="reset">Reset</button>
+
+    <h2 id="sgpaResult">SGPA: --</h2>
+
+    <div class="semester-section">
+        <h3>Saved Semesters</h3>
+        <ul id="semesterList"></ul>
+    </div>
+
+    <h2 id="cgpaResult">CGPA: --</h2>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
